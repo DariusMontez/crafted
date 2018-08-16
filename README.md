@@ -1,6 +1,8 @@
 # CRAFTED
 Interactive machining console & G-code simulator
 
+![CRAFTED in CRAFTED](/docs/crafted_screenshot-2018-08-16#3.png)
+
 The purpose of CRAFTED is make learning G-code a fun and interactive experience. CRAFTED draws as you type, in real-time, so you can observe the immediate effect of changing parameters.
 
 Need a G-code simulator? Paste you code into CRAFTED's console and see the result!
