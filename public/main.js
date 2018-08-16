@@ -191,7 +191,11 @@ const Console = {
         
         this.$el.innerText = localStorage.getItem(`Console.text`);
         this.$el.focus();
-        getSelection().collapse(this.$el.lastChild, this.$el.lastChild.textContent.length);
+        
+        // set cursor to end
+        if (this.$el.lastChild) {
+            getSelection().collapse(this.$el.lastChild, this.$el.lastChild.textContent.length);
+        }
         
         this.update();
     },
